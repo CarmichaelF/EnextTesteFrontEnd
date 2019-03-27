@@ -7,13 +7,18 @@ import Subtitle from "./Subtitle";
 
 class Header extends Component {
   render() {
+    //Mocked data used to ilustrate an API call/SQL database for example.
+    const elements = {
+      name: ["Potions", "Ingredients", "Books", "Supplies", "Charms", "Clearance!"],
+      href: "#"
+    }
     return (
-      <div className="Header">
-        <Navbar />
+      <header>
+        <Navbar navElements = {elements}/>
         <Logo />
         <Bag />
         <Subtitle />
-      </div>
+      </header>
     );
   }
 }
