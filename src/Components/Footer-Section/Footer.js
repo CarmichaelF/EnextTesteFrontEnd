@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import "./Potions.css";
+import "./Footer.css";
 
 class Footer extends Component {
   render() {
-    return <div className="Footer">Footer</div>;
+    return <div className="Footer">Footer
+    
+    </div>;
   }
 }
 
