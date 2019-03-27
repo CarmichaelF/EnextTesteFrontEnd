@@ -6,7 +6,7 @@ class Navbar extends Component {
     const { navElements } = this.props;
     return (
       <nav className="navbar">
-        <div className="search wrapper">
+        <div className="search">
           <button href="#" className="navbar-btn">
             <i class="fas fa-bars" />
           </button>
