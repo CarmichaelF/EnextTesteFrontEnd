@@ -1,38 +1,33 @@
 import React, { Component } from "react";
+import Search from "./Search";
+import Nav from "./Nav";
 import "./Navbar.css";
 
 class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { menuHide: true, menuIcon: "fa-bars" };
+  }
+
+  toggleMenu() {
+    const { menuHide, menuIcon } = this.state;
+    this.setState({
+      menuHide: !menuHide,
+      menuIcon: menuIcon === "fa-times" ? "fa-bars" : "fa-times"
+    });
+  }
+
   render() {
     const { navElements } = this.props;
     return (
       <nav className="navbar">
         <div className="search">
-          <button href="#" className="navbar-btn">
-            <i class="fas fa-bars" />
+          <button onClick={() => this.toggleMenu()} className="navbar-btn">
+            <i className={`fas ${this.state.menuIcon}`} />
           </button>
-
-          <div class="search-input">
-            <span class="fa fa-search" />
-            <input type="text" placeholder="Search our stock" />
-          </div>
+          {this.state.menuHide ? null : <Search />}
         </div>
-
-        <div className="navbar-nav">
-          <ul className="navbar-items">
-            {navElements.name.map(element => (
-              <li className="navbar-item">
-                <a className="navbar-link" href={navElements.href}>
-                  {element}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <div className="navbar-btn-group">
-            <button className="navbar-btn-sign">Sign In</button>
-            <span>or</span>
-            <button className="navbar-btn-sign">Sign Up</button>
-          </div>
-        </div>
+        {this.state.menuHide ? null : <Nav navElements={navElements} />}
       </nav>
     );
   }

@@ -1,0 +1,18 @@
+/* Search Input */
+.search-input {
+  width: 80%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input > span {
+  margin: 0 10px;
+  color: #d33e0e;
+}
+
+.search-input > input::placeholder,
+.search-input > input {
+  color: #bdb3b9;
+}
