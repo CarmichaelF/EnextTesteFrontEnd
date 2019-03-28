@@ -1,0 +1,47 @@
+.newsletter {
+  background-color: #e6e6e6;
+}
+
+.newsletter-content {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.newsletter-content:first-child {
+  padding-top: 30px;
+}
+
+.newsletter-content > * {
+  padding: 5px;
+}
+
+.newsletter-text {
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.newsletter-text-italic {
+  font-style: italic;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter-input {
+  width: 75%;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+  padding: 10px 5px;
+  color: #c0c0c2;
+}
+
+.newsletter-btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #d33d0a;
+  color: #ffffff;
+}

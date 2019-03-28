@@ -1,24 +1,21 @@
 import React, { Component } from "react";
-import Potion from "./Potion";
-import getAll from "../../Utils/PotionsAPI";
+import Column from "./Column";
 import "./Potions.css";
 
 class Potions extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { potions: null };
-  }
-
-  componentDidMount() {
-    getAll().then(potions => this.setState({ potions }))
-    .catch(error => console.error(error));
-  }
-
   render() {
     return (
-      <div className="potions">
-        <h1 className= "potions-title">Potions:</h1>
-        
+      <div className="wrapper">
+        <h1 className="potions-title">{this.props.title}</h1>
+        <div className="potions">
+          {this.props.potions !== null ? (
+            this.props.potions.map(potion => {
+              return <Column key={potion.id} potion={potion} />;
+            })
+          ) : (
+            <h1>Loading...</h1>
+          )}
+        </div>
       </div>
     );
   }

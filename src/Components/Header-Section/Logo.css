@@ -35,4 +35,5 @@
   height: 1px;
   position: relative;
   vertical-align: middle;
+  z-index: -1;
 }

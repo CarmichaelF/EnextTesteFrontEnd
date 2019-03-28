@@ -24,8 +24,8 @@ class Navbar extends Component {
       nClass = 'navbar-open';
     }
     return (
-      <nav className={`${nClass}`}>
-        <div className="search">
+      <nav className={`${nClass !== undefined ? nClass : ''}`}>
+        <div className="search-container">
           <button onClick={() => this.toggleMenu()} className="navbar-btn">
             <i className={`fas ${this.state.menuIcon}`} />
           </button>
