@@ -7,16 +7,24 @@ import Subtitle from "./Subtitle";
 
 class Header extends Component {
   render() {
-    //Mocked data used to ilustrate an API call/SQL database for example.
     const elements = {
-      name: ["Potions", "Ingredients", "Books", "Supplies", "Charms", "Clearance!"],
+      name: [
+        "Potions",
+        "Ingredients",
+        "Books",
+        "Supplies",
+        "Charms",
+        "Clearance!"
+      ],
       href: "#"
-    }
+    };
     return (
       <header>
-        <Navbar navElements = {elements}/>
-        <Logo />
-        <Bag />
+        <div className="header-top">
+          <Navbar navElements={elements} />
+          <Logo title="Merlin's potions" subtitle="fine potions since 1026" />
+          <Bag />
+        </div>
         <Subtitle />
       </header>
     );

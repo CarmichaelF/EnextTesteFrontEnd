@@ -1,0 +1,14 @@
+.bag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.bag-container {
+  color: #bdb8b3;
+  text-transform: uppercase;
+}
+
+.bag-count {
+  color: #cd4534;
+}

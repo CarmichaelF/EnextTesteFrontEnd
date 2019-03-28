@@ -4,8 +4,8 @@ import "./Subtitle.css";
 class Subtitle extends Component {
   render() {
     return (
-      <div className="Subtitle">
-        Subtitle
+      <div className="header-subtitle">
+        <span>Free shipping on orders over $50</span>
       </div>
     );
   }

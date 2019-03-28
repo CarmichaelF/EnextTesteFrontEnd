@@ -19,8 +19,12 @@ class Navbar extends Component {
 
   render() {
     const { navElements } = this.props;
+    let nClass;
+    if(!this.state.menuHide){
+      nClass = 'navbar-open';
+    }
     return (
-      <nav className="navbar">
+      <nav className={`${nClass}`}>
         <div className="search">
           <button onClick={() => this.toggleMenu()} className="navbar-btn">
             <i className={`fas ${this.state.menuIcon}`} />

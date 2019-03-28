@@ -1,9 +1,5 @@
 /* Navbar Nav */
 
-.navbar {
-  position: fixed;
-  width: 100%;
-}
 .navbar-nav {
   height: 100%;
   background-color: #4f336d;

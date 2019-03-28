@@ -1,4 +1,11 @@
 /* Search Section */
+
+.navbar-open {
+  position: fixed;
+  align-self: flex-start;
+  width: 100%;
+}
+
 .search {
   display: flex;
   justify-content: space-between;

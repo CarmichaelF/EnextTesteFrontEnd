@@ -1,0 +1,11 @@
+.header-subtitle{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: #ECECEC;
+}
+
+.header-subtitle > span{
+    color: #757575;
+    font-style: italic;
+}
