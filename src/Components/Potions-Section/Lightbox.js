@@ -7,7 +7,7 @@ export default props => {
     <div className={styles.backgroundGrey}>
       <div className={styles.lightbox}>
         <button
-          onClick={() => this.props.toggleLightBox(false)}
+          onClick={() => props.toggleLightBox(false)}
           className={styles.lightboxBtnX}
         >
           X
