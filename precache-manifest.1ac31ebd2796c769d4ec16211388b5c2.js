@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/EnextTesteFrontEnd/static/media/bag-icon.4af7dbbe.svg"
   },
   {
-    "revision": "6170b39f2ac82be979d6f7c1ea01df1a",
+    "revision": "ebb2e6a32736035f388df9697e5e92b0",
     "url": "/EnextTesteFrontEnd/index.html"
   }
 ];
