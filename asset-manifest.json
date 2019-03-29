@@ -1,0 +1,20 @@
+{
+  "main.css": "/EnextTesteFrontEnd/static/css/main.7209df92.chunk.css",
+  "main.js": "/EnextTesteFrontEnd/static/js/main.93f96576.chunk.js",
+  "main.js.map": "/EnextTesteFrontEnd/static/js/main.93f96576.chunk.js.map",
+  "runtime~main.js": "/EnextTesteFrontEnd/static/js/runtime~main.e565dba0.js",
+  "runtime~main.js.map": "/EnextTesteFrontEnd/static/js/runtime~main.e565dba0.js.map",
+  "static/js/2.65917f1d.chunk.js": "/EnextTesteFrontEnd/static/js/2.65917f1d.chunk.js",
+  "static/js/2.65917f1d.chunk.js.map": "/EnextTesteFrontEnd/static/js/2.65917f1d.chunk.js.map",
+  "index.html": "/EnextTesteFrontEnd/index.html",
+  "precache-manifest.c9039de8f26282b74ba202d47ab38bc5.js": "/EnextTesteFrontEnd/precache-manifest.c9039de8f26282b74ba202d47ab38bc5.js",
+  "service-worker.js": "/EnextTesteFrontEnd/service-worker.js",
+  "static/css/main.7209df92.chunk.css.map": "/EnextTesteFrontEnd/static/css/main.7209df92.chunk.css.map",
+  "static/media/aging-potion.png": "/EnextTesteFrontEnd/static/media/aging-potion.7287aa56.png",
+  "static/media/bag-icon.4af7dbbe.svg": "/EnextTesteFrontEnd/static/media/bag-icon.4af7dbbe.svg",
+  "static/media/bulgeye-potion.png": "/EnextTesteFrontEnd/static/media/bulgeye-potion.4bd51703.png",
+  "static/media/dragon-tonic.png": "/EnextTesteFrontEnd/static/media/dragon-tonic.67feeedc.png",
+  "static/media/love-potion.png": "/EnextTesteFrontEnd/static/media/love-potion.6521c706.png",
+  "static/media/polyjuice-potion.png": "/EnextTesteFrontEnd/static/media/polyjuice-potion.23d73ce7.png",
+  "static/media/sleeping-draught.png": "/EnextTesteFrontEnd/static/media/sleeping-draught.ab39e5cc.png"
+}
