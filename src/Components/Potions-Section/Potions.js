@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Column from "./Column";
+import Column from "../Generic/Column";
 import styles from "./Potions.module.css";
-
+import Potion from "./Potion";
 class Potions extends Component {
   render() {
     return (
@@ -10,7 +10,11 @@ class Potions extends Component {
         <div className={styles.potions}>
           {this.props.potions !== null ? (
             this.props.potions.map(potion => {
-              return <Column key={potion.id} potion={potion} />;
+              return (
+                <Column key={potion.id}>
+                  <Potion potion={potion} />
+                </Column>
+              );
             })
           ) : (
             <h1>Loading...</h1>

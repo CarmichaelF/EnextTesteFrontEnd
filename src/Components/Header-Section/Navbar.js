@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Search from "./Search";
-import Nav from "./Nav";
+import Nav from "../Generic/Nav";
 import styles from "./Navbar.module.css";
 
 class Navbar extends Component {
@@ -18,15 +18,15 @@ class Navbar extends Component {
   }
 
   render() {
-    const { navElements } = this.props;
-    let nClass;
-    if(!this.state.menuHide){
-      nClass = styles.navbarOpen;
-    }
+    const { navElements, wrapper } = this.props;
+    let nClass = !this.state.menuHide ? styles.navbarOpen : "";
     return (
-      <nav className={`${nClass !== undefined ? nClass : ''}`}>
+      <nav className={nClass}>
         <div className={styles.searchContainer}>
-          <button onClick={() => this.toggleMenu()} className={styles.navbarBtn}>
+          <button
+            onClick={() => this.toggleMenu()}
+            className={styles.navbarBtn}
+          >
             <i className={`fas ${this.state.menuIcon}`} />
           </button>
           {this.state.menuHide ? null : <Search />}

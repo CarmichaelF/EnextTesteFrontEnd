@@ -68,7 +68,7 @@
   border-radius: 5px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .lightboxImg {
     max-width: 50%;
     height: auto;

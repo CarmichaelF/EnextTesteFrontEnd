@@ -6,9 +6,9 @@ export default () => {
   return (
     <div className={styles.bag}>
       <BagLogo />
-      <span className={styles.bagContainer}>
+      <div className={styles.bagContainer}>
         Bag: <span className={styles.bagCount}>1</span>
-      </span>
+      </div>
     </div>
   );
 };

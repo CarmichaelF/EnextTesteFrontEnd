@@ -3,7 +3,7 @@
   min-height: 100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .column {
     width: 33%;
     min-height: 100px;

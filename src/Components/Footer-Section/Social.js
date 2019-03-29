@@ -6,19 +6,19 @@ export default () => {
     <div className={styles.social}>
       <ul className={styles.socialList}>
         <a className={styles.socialIcon} href="#">
-          <i class="fab fa-facebook-f" />
+          <i className="fab fa-facebook-f" />
         </a>
         <a className={styles.socialIcon} href="#">
-          <i class="fab fa-twitter" />
+          <i className="fab fa-twitter" />
         </a>
         <a className={styles.socialIcon} href="#">
-          <i class="fab fa-pinterest-p" />
+          <i className="fab fa-pinterest-p" />
         </a>
         <a className={styles.socialIcon} href="#">
-          <i class="fab fa-tumblr" />
+          <i className="fab fa-tumblr" />
         </a>
         <a className={styles.socialIcon} href="#">
-          <i class="fab fa-google-plus-g" />
+          <i className="fab fa-google-plus-g" />
         </a>
       </ul>
     </div>
