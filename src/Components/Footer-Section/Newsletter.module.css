@@ -1,45 +1,41 @@
 .newsletter {
-  background-color: #e6e6e6;
+  padding: 10px 0;
 }
 
-.newsletter-content {
+.newsletterContent {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 10px;
+}
+.newsletterContent > * {
+  padding: 8px 0;
 }
 
-.newsletter-content:first-child {
-  padding-top: 30px;
-}
-
-.newsletter-content > * {
-  padding: 5px;
-}
-
-.newsletter-text {
+.newsletterText {
   font-weight: 500;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
-.newsletter-text-italic {
+.newsletterTextItalic {
   font-style: italic;
 }
 
-.newsletter-form {
+.newsletterForm {
   display: flex;
+  font-size: 0.9em;
   justify-content: space-between;
 }
 
-.newsletter-input {
+.newsletterInput {
   width: 75%;
   border: 1px #000000 solid;
   border-radius: 5px;
-  padding: 10px 5px;
+  padding: 5px;
   color: #c0c0c2;
 }
 
-.newsletter-btn {
+.newsletterBtn {
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 5px;
   text-transform: uppercase;
   background-color: #d33d0a;

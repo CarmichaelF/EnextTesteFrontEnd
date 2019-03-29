@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Subtitle.css";
+import styles from "./Subtitle.module.css";
 
 class Subtitle extends Component {
   render() {
     return (
-      <div className="header-subtitle">
+      <div className={styles.headerSubtitle}>
         <span>Free shipping on orders over $50</span>
       </div>
     );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Search from "./Search";
 import Nav from "./Nav";
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 class Navbar extends Component {
   constructor(props) {
@@ -21,12 +21,12 @@ class Navbar extends Component {
     const { navElements } = this.props;
     let nClass;
     if(!this.state.menuHide){
-      nClass = 'navbar-open';
+      nClass = styles.navbarOpen;
     }
     return (
       <nav className={`${nClass !== undefined ? nClass : ''}`}>
-        <div className="search-container">
-          <button onClick={() => this.toggleMenu()} className="navbar-btn">
+        <div className={styles.searchContainer}>
+          <button onClick={() => this.toggleMenu()} className={styles.navbarBtn}>
             <i className={`fas ${this.state.menuIcon}`} />
           </button>
           {this.state.menuHide ? null : <Search />}

@@ -1,5 +1,4 @@
-/* Search Input */
-.search-input {
+.searchInput {
   width: 80%;
   border: 1px solid #000000;
   border-radius: 5px;
@@ -7,12 +6,12 @@
   align-items: center;
 }
 
-.search-input > span {
+.searchInput > span {
   margin: 0 10px;
   color: #d33e0e;
 }
 
-.search-input > input::placeholder,
-.search-input > input {
+.searchInput > input::placeholder,
+.searchInput > input {
   color: #bdb3b9;
 }

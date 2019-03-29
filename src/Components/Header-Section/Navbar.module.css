@@ -1,19 +1,17 @@
-/* Search Section */
-
-.navbar-open {
+.navbarOpen {
   position: fixed;
   align-self: flex-start;
   width: 100%;
 }
 
-.search-container {
+.searchContainer {
   display: flex;
   justify-content: space-between;
   padding: 20px 20px;
   background-color: #ffffff;
 }
 
-.navbar-btn {
+.navbarBtn {
   margin: 0px;
   background-color: transparent;
   color: #4f346a;

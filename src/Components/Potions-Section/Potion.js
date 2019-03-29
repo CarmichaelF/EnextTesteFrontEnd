@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Lightbox from "./Lightbox";
-import "./Potion.css";
+import styles from "./Potion.module.css";
 
 class Potion extends Component {
   constructor(props) {
@@ -16,21 +16,21 @@ class Potion extends Component {
     if (this.props.potion !== undefined) {
       const { name, image, price } = this.props.potion;
       return (
-        <div className="potion">
+        <div className={styles.potion}>
           <figure>
             <button
               onClick={() => this.toggleLightBox(true)}
-              className="potion-btn"
+              className={styles.potionBtn}
             >
               <img
-                className="potion-img"
+                className={styles.potionImg}
                 src={require(`../../images/products/${image}`)}
                 alt={`${name}`}
               />
             </button>
             <figcaption>
-              <span className="potion-name">{name}</span> -{" "}
-              <span className="potion-price">{`$${price}`}</span>
+              <span className={styles.potionName}>{name}</span> -{" "}
+              <span className={styles.potionPrice}>{`$${price}`}</span>
             </figcaption>
           </figure>
           {this.state.lightbox ? (

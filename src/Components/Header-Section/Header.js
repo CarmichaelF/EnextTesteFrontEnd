@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Header.css";
+import styles from "./Header.module.css";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
 import Bag from "./Bag";
@@ -20,7 +20,7 @@ class Header extends Component {
     };
     return (
       <header>
-        <div className="header-top">
+        <div className={styles.headerTop}>
           <Navbar navElements={elements} />
           <Logo title="Merlin's potions" subtitle="fine potions since 1026" />
           <Bag />

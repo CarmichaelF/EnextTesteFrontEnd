@@ -1,9 +1,9 @@
 import React from "react";
-import "./Search.css";
+import styles from "./Search.module.css";
 
 export default () => {
   return (
-    <div className="search-input">
+    <div className={styles.searchInput}>
       <span className="fa fa-search" />
       <input type="text" placeholder="Search our stock" />
     </div>

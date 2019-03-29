@@ -4,11 +4,11 @@
   align-items: center;
   margin-right: 20px;
 }
-.bag-container {
+.bagContainer {
   color: #bdb8b3;
   text-transform: uppercase;
 }
 
-.bag-count {
+.bagCount {
   color: #cd4534;
 }

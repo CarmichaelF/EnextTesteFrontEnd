@@ -1,3 +1,7 @@
 .footer{
     background-color: #E6E6E6;
 }
+
+.footer > *{
+    margin: 10px;
+}

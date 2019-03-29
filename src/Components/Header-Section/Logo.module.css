@@ -8,12 +8,12 @@
   margin: 5px;
 }
 
-.logo-title-bold {
+.logoTitleBold {
   color: #d02e07;
   font-weight: 600;
 }
 
-.logo-title {
+.logoTitle {
   font-size: 2em;
   text-transform: uppercase;
   font-family: "Dosis", sans-serif;

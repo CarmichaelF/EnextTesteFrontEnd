@@ -1,4 +1,4 @@
-.background-grey {
+.backgroundGrey {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -24,7 +24,7 @@
   overflow: auto;
 }
 
-.lightbox-btn-x {
+.lightboxBtnX {
   width: 15px;
   align-self: flex-end;
   background-color: transparent;
@@ -32,7 +32,7 @@
   font-weight: 600;
 }
 
-.lightbox-content {
+.lightboxContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,25 +40,25 @@
   padding: 20px;
 }
 
-.lightbox-img {
+.lightboxImg {
   max-width: 80%;
   height: auto;
 }
 
-.lightbox-text {
+.lightboxText {
   text-align: left;
 }
 
-.lightbox-text > * {
+.lightboxText > * {
   padding: 5px 0;
 }
 
-.lightbox-ingredients {
+.lightboxIngredients {
   display: flex;
   flex-direction: column;
 }
 
-.lightbox-btn {
+.lightboxBtn {
   cursor: pointer;
   display: block;
   background-color: #d73a1e;
@@ -69,11 +69,11 @@
 }
 
 @media (min-width: 768px) {
-  .lightbox-img {
+  .lightboxImg {
     max-width: 50%;
     height: auto;
   }
-  .lightbox-content {
+  .lightboxContent {
     flex-direction: row;
   }
 }

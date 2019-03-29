@@ -1,39 +1,39 @@
 import React, { Component } from "react";
-import "./Lightbox.css";
+import styles from "./Lightbox.module.css";
 
 class Lightbox extends Component {
   render() {
     const { name, image, price, effect, ingredients } = this.props.potion;
     return (
-      <div className="background-grey">
-        <div className="lightbox">
+      <div className={styles.backgroundGrey}>
+        <div className={styles.lightbox}>
           <button
             onClick={() => this.props.toggleLightBox(false)}
-            className="lightbox-btn-x"
+            className={styles.lightboxBtnX}
           >
             X
           </button>
-          <div className="lightbox-content">
+          <div className={styles.lightboxContent}>
             <img
-              className="lightbox-img"
+              className={styles.lightboxImg}
               src={require(`../../images/products/${image}`)}
               alt={`${name}`}
             />
-            <div className="lightbox-text">
-              <h1 className="potion-name">{name}</h1>
-              <h2 className="potion-name">Use/Effect:</h2>
-              <span className="lightbox-effect">{effect}</span>
-              <h3 className="potion-name">Ingredients:</h3>
-              <div className="lightbox-ingredients">
+            <div className={styles.lightboxText}>
+              <h1 className={styles.potionName}>{name}</h1>
+              <h2 className={styles.potionName}>Use/Effect:</h2>
+              <span className={styles.lightboxEffect}>{effect}</span>
+              <h3 className={styles.potionName}>Ingredients:</h3>
+              <div className={styles.lightboxIngredients}>
                 {ingredients.map(ingredient => (
-                  <span className="lightbox-ingredient">{ingredient}</span>
+                  <span className={styles.lightboxIngredient}>{ingredient}</span>
                 ))}
               </div>
-              <div className="lightbox-price">
-                <h4 className="potion-name">Price:</h4>
-                <span className="potion-price">{`$${price}`}</span>
+              <div className={styles.lightboxPrice}>
+                <h4 className={styles.potionName}>Price:</h4>
+                <span className={styles.potionPrice}>{`$${price}`}</span>
               </div>
-              <button className="lightbox-btn">Add to cart</button>
+              <button className={styles.lightboxBtn}>Add to cart</button>
             </div>
           </div>
         </div>
