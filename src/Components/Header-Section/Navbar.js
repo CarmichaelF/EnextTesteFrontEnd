@@ -18,7 +18,7 @@ class Navbar extends Component {
   }
 
   render() {
-    const { navElements, wrapper } = this.props;
+    const { navElements } = this.props;
     let nClass = !this.state.menuHide ? styles.navbarOpen : "";
     return (
       <nav className={nClass}>

@@ -4,7 +4,7 @@
 
 .newsletterContent {
   background-color: #ffffff;
-  padding: 10px;
+  padding: 10px 20px;
 }
 .newsletterContent > * {
   padding: 8px 0;
@@ -40,4 +40,13 @@
   text-transform: uppercase;
   background-color: #d33d0a;
   color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .newsletterContent {
+    border-radius: 5px;
+  }
+  .newsletterInput {
+    width: 70%;
+  }
 }

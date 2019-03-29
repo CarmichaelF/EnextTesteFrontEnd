@@ -5,7 +5,9 @@ export default () => {
   return (
     <div className={styles.newsletter}>
       <div className={styles.newsletterContent}>
-        <h1 className={`${styles.newsletterText} ${styles.newsletterTextItalic}`}>
+        <h1
+          className={`${styles.newsletterText} ${styles.newsletterTextItalic}`}
+        >
           Sign up for our Newsletter
         </h1>
         <h2 className={styles.newsletterText}>

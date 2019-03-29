@@ -6,7 +6,9 @@ class Logo extends Component {
     const splited = title.split(" ");
     return (
       <>
-        <span className={`${styles.logoTitle} ${styles.logoTitleBold}`}>{splited[0]}</span>
+        <span className={`${styles.logoTitle} ${styles.logoTitleBold}`}>
+          {splited[0]}
+        </span>
         <span className={styles.logoTitle}>{splited[1]}</span>
       </>
     );
@@ -17,7 +19,9 @@ class Logo extends Component {
     return (
       <div className={styles.logo}>
         <div className={styles.title}>{this.formatTitle(title)}</div>
-        <div className={styles.subtitle}><span>{subtitle}</span></div>
+        <div className={styles.subtitle}>
+          <span>{subtitle}</span>
+        </div>
       </div>
     );
   }

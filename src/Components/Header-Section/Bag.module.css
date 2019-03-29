@@ -6,7 +6,6 @@
   margin-right: 20px;
 }
 .bagContainer {
-  margin-left: 20px;
   color: #bdb8b3;
   text-transform: uppercase;
 }
@@ -19,5 +18,8 @@
 @media (min-width: 992px) {
   .bag {
     flex-direction: row;
+  }
+  .bagContainer {
+    margin-left: 20px;
   }
 }
