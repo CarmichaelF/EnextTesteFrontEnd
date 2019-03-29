@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/EnextTesteFrontEnd/static/media/dragon-tonic.67feeedc.png"
   },
   {
-    "revision": "5087f6b395815977297c",
+    "revision": "ce55c36a12364167fa6d",
     "url": "/EnextTesteFrontEnd/static/css/main.7209df92.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/EnextTesteFrontEnd/static/media/bulgeye-potion.4bd51703.png"
   },
   {
-    "revision": "5087f6b395815977297c",
-    "url": "/EnextTesteFrontEnd/static/js/main.93f96576.chunk.js"
+    "revision": "ce55c36a12364167fa6d",
+    "url": "/EnextTesteFrontEnd/static/js/main.f9e2c07f.chunk.js"
   },
   {
     "revision": "6521c7065b8bda81028ce9ad7b7056f2",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/EnextTesteFrontEnd/static/media/bag-icon.4af7dbbe.svg"
   },
   {
-    "revision": "bf825c62e8a48b8bd6208e5a5ca62dcc",
+    "revision": "6170b39f2ac82be979d6f7c1ea01df1a",
     "url": "/EnextTesteFrontEnd/index.html"
   }
 ];
